@@ -1,6 +1,6 @@
 # Chirper React
 
-This project is based on [bootcamp.laravel.com/blade](https://bootcamp.laravel.com/inertia/installation).
+This project is based on [bootcamp.laravel.com/inertia](https://bootcamp.laravel.com/inertia/installation).
 
 ## Local installation
 
@@ -24,7 +24,7 @@ local copy of this project on your computer.
 e.g.
 
 ```sh
-git clone git@github.com:Pen-y-Fan/chirper.git
+git clone git@github.com:Pen-y-Fan/chirper-react.git
 ```
 
 ### Install
@@ -57,14 +57,11 @@ php artisan key:generate
 Laravel is compatible with different database servers, MySQL is given as an example setup here, but there should be no
 reason why this app wouldn't work on other Laravel supported SQL servers. I have not tested with other SQL servers.
 
-This app uses migrations to generate the tables for the database. Tests will use factories for data. Configure the
-Laravel **.env** file with the **database**, updating **username** and **password** as per you local setup.
-
 ```ini
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=chirper
+DB_DATABASE=chirper_react
 DB_USERNAME=YourDatabaseUserName (root)
 DB_PASSWORD=YourDatabaseUserPassword
 ```
@@ -127,7 +124,7 @@ npm run dev
 
 ## Credits
 
-- [Laravel Bootcamp](https://bootcamp.laravel.com/blade/installation) - blade version
+- [Laravel Bootcamp](https://bootcamp.laravel.com/inertia/installation) - react version
 - [Michael Pritchard \(AKA Pen-y-Fan\)](https://github.com/pen-y-fan).
 
 ## License
